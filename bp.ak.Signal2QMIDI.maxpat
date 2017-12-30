@@ -419,12 +419,12 @@
 					"fontsize" : 12.0,
 					"id" : "obj-7",
 					"maxclass" : "newobj",
-					"numinlets" : 2,
+					"numinlets" : 6,
 					"numoutlets" : 1,
 					"outlettype" : [ "signal" ],
-					"patching_rect" : [ 402.0, 163.0, 39.0, 22.0 ],
+					"patching_rect" : [ 343.0, 148.0, 112.0, 22.0 ],
 					"style" : "",
-					"text" : "*~ 12"
+					"text" : "scale~ 0. 10. 0 120"
 				}
 
 			}
@@ -563,7 +563,7 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 402.0, 70.0, 25.0, 25.0 ],
+					"patching_rect" : [ 343.0, 65.5, 25.0, 25.0 ],
 					"style" : ""
 				}
 
@@ -580,14 +580,14 @@
 					"patching_rect" : [ 274.0, 829.0, 59.5, 22.0 ],
 					"restore" : 					{
 						"MIDIActivityLED" : [ 0.0 ],
-						"Steps" : [ 7.0 ],
+						"Steps" : [ 0.0 ],
 						"live.tab" : [ 0.0 ],
 						"mute" : [ 0.0 ]
 					}
 ,
 					"style" : "",
 					"text" : "autopattr",
-					"varname" : "u521007255"
+					"varname" : "u434000896"
 				}
 
 			}
@@ -613,15 +613,14 @@
 					"fontname" : "Arial Bold",
 					"fontsize" : 9.0,
 					"id" : "obj-19",
-					"linecount" : 3,
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 402.0, 43.0, 38.0, 37.0 ],
+					"patching_rect" : [ 343.0, 38.5, 83.0, 17.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 2.0, 0.0, 105.0, 17.0 ],
 					"style" : "",
-					"text" : "Signal (0V / 5V)",
+					"text" : "Signal (1V / Oct)",
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
 				}
 
@@ -645,21 +644,20 @@
 			}
 , 			{
 				"box" : 				{
-					"angle" : 270.0,
+					"angle" : 90.0,
 					"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-					"horizontal_direction" : 1,
-					"id" : "obj-145",
+					"id" : "obj-101",
 					"maxclass" : "panel",
 					"mode" : 0,
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 743.741089, 42.0, 229.322021, 30.0 ],
+					"patching_rect" : [ 873.0, -138.0, 150.0, 4.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ -2.0, 0.0, 250.0, 15.0 ],
+					"presentation_rect" : [ -1.21934, 174.0, 247.0, 17.0 ],
 					"proportion" : 0.39,
+					"prototypename" : "M4LBack",
 					"rounded" : 0,
-					"style" : "",
-					"vertical_direction" : 1
+					"style" : ""
 				}
 
 			}
@@ -667,14 +665,14 @@
 				"box" : 				{
 					"angle" : 90.0,
 					"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-					"id" : "obj-31",
+					"id" : "obj-43",
 					"maxclass" : "panel",
 					"mode" : 0,
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 23.447327, 59.0, 150.0, 4.0 ],
+					"patching_rect" : [ -6.552673, 29.0, 150.0, 4.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ -2.0, 173.0, 250.0, 16.0 ],
+					"presentation_rect" : [ -1.21934, 0.0, 247.0, 17.0 ],
 					"proportion" : 0.39,
 					"prototypename" : "M4LBack",
 					"rounded" : 0,
@@ -691,9 +689,9 @@
 					"mode" : 0,
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 151.447327, 70.0, 150.0, 4.0 ],
+					"patching_rect" : [ 121.447327, 40.0, 150.0, 4.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ -2.219339, 14.666668, 250.21933, 19.333334 ],
+					"presentation_rect" : [ -1.21934, 15.666667, 247.0, 19.333334 ],
 					"proportion" : 0.39,
 					"prototypename" : "M4LTopMenuBar",
 					"rounded" : 0,
@@ -705,14 +703,14 @@
 				"box" : 				{
 					"angle" : 90.0,
 					"bgcolor" : [ 0.325866, 0.32489, 0.34641, 1.0 ],
-					"id" : "obj-32",
+					"id" : "obj-17",
 					"maxclass" : "panel",
 					"mode" : 0,
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ -19.0, 88.707771, 150.0, 4.0 ],
+					"patching_rect" : [ -49.0, 58.707771, 150.0, 4.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ -2.0, 0.0, 250.0, 188.0 ],
+					"presentation_rect" : [ -1.21934, 0.0, 247.0, 191.0 ],
 					"proportion" : 0.39,
 					"prototypename" : "M4LTopMenuBar",
 					"rounded" : 0,
@@ -989,8 +987,8 @@
 		"parameters" : 		{
 			"obj-23" : [ "Steps", "nn", 0 ],
 			"obj-48" : [ "MIDIActivityLED", "MIDIActivityLED", 0 ],
-			"obj-20" : [ "mute[20]", "mute", 0 ],
-			"obj-18" : [ "live.tab", "live.tab", 0 ]
+			"obj-18" : [ "live.tab", "live.tab", 0 ],
+			"obj-20" : [ "mute[20]", "mute", 0 ]
 		}
 ,
 		"dependency_cache" : [ 			{
