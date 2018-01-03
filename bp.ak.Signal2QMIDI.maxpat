@@ -9,7 +9,7 @@
 			"modernui" : 1
 		}
 ,
-		"rect" : [ 38.0, 78.0, 892.0, 616.0 ],
+		"rect" : [ 38.0, 78.0, 833.0, 643.0 ],
 		"bgcolor" : [ 1.0, 1.0, 1.0, 0.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
@@ -73,9 +73,9 @@
 					"offset" : 48,
 					"outlettype" : [ "int", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 556.0, 459.0, 228.0, 53.0 ],
+					"patching_rect" : [ 519.0, 507.0, 133.0, 34.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 9.0, 111.0, 228.0, 53.0 ],
+					"presentation_rect" : [ 6.5, 135.0, 133.0, 34.0 ],
 					"range" : 32,
 					"style" : "",
 					"whitekeycolor" : [ 1.0, 1.0, 1.0, 1.0 ]
@@ -92,7 +92,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 716.5, 163.0, 62.0, 15.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 47.5, 43.0, 55.0, 15.0 ],
+					"presentation_rect" : [ 2.0, 37.0, 55.0, 15.0 ],
 					"style" : "",
 					"text" : "Transpose",
 					"textcolor" : [ 1.0, 1.0, 1.0, 0.6 ]
@@ -116,11 +116,11 @@
 					"parameter_enable" : 1,
 					"patching_rect" : [ 690.0, 199.464355, 81.0, 17.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 2.0, 42.0, 39.0, 17.0 ],
+					"presentation_rect" : [ 2.0, 50.0, 39.0, 17.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_linknames" : 1,
-							"parameter_longname" : "Steps",
+							"parameter_longname" : "Steps[6]",
 							"parameter_shortname" : "nn",
 							"parameter_type" : 1,
 							"parameter_mmax" : 11.0,
@@ -171,17 +171,17 @@
 					"id" : "obj-18",
 					"maxclass" : "live.tab",
 					"num_lines_patching" : 4,
-					"num_lines_presentation" : 2,
+					"num_lines_presentation" : 4,
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "float" ],
 					"parameter_enable" : 1,
 					"patching_rect" : [ 560.0, 100.0, 146.0, 70.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 2.0, 63.733376, 239.0, 37.0 ],
+					"presentation_rect" : [ 2.0, 68.733376, 146.0, 65.266624 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
-							"parameter_longname" : "live.tab",
+							"parameter_longname" : "live.tab[1]",
 							"parameter_shortname" : "live.tab",
 							"parameter_type" : 2,
 							"parameter_enum" : [ "Diatonic", "Octatonic", "Wholetone", "Chromatic" ],
@@ -217,19 +217,6 @@
 					"patching_rect" : [ 539.75, 261.0, 70.0, 22.0 ],
 					"style" : "",
 					"text" : "diatonicSet"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-11",
-					"linecount" : 2,
-					"maxclass" : "comment",
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 45.210663, 100.0, 154.0, 33.0 ],
-					"style" : "",
-					"text" : "## Convert a 1v/oct signal to a MIDI note message ##"
 				}
 
 			}
@@ -273,7 +260,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 476.0, 43.0, 31.0, 17.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 210.0, 0.0, 31.0, 17.0 ],
+					"presentation_rect" : [ 117.0, 0.0, 31.0, 17.0 ],
 					"style" : "",
 					"text" : "Gate",
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
@@ -284,11 +271,11 @@
 				"box" : 				{
 					"comment" : "",
 					"id" : "obj-10",
-					"index" : 0,
+					"index" : 2,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
-					"outlettype" : [ "" ],
+					"outlettype" : [ "signal" ],
 					"patching_rect" : [ 476.0, 70.0, 25.0, 25.0 ],
 					"style" : ""
 				}
@@ -321,18 +308,18 @@
 					"bgfillcolor_proportion" : 0.39,
 					"bgfillcolor_type" : "gradient",
 					"fontname" : "DIN-Regular",
-					"fontsize" : 20.0,
+					"fontsize" : 14.0,
 					"gradient" : 1,
 					"id" : "obj-35",
 					"maxclass" : "message",
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 501.0, 383.0, 71.0, 33.0 ],
+					"patching_rect" : [ 501.0, 383.0, 55.0, 25.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 168.0, 34.0, 73.0, 33.0 ],
+					"presentation_rect" : [ 37.0, 45.0, 56.0, 25.0 ],
 					"style" : "",
-					"text" : "64 0",
+					"text" : "40 0",
 					"textcolor" : [ 0.278431, 0.839216, 1.0, 1.0 ],
 					"textjustification" : 1
 				}
@@ -459,7 +446,7 @@
 					"presentation_rect" : [ 26.5, 176.0, 9.733376, 9.733376 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
-							"parameter_longname" : "MIDIActivityLED",
+							"parameter_longname" : "MIDIActivityLED[1]",
 							"parameter_shortname" : "MIDIActivityLED",
 							"parameter_type" : 2,
 							"parameter_mmax" : 1.0,
@@ -519,10 +506,10 @@
 					"parameter_enable" : 1,
 					"patching_rect" : [ 296.0, 199.464355, 40.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 202.0, 19.0, 39.0, 14.764645 ],
+					"presentation_rect" : [ 102.780663, 45.0, 39.0, 14.764645 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
-							"parameter_longname" : "mute[20]",
+							"parameter_longname" : "mute[30]",
 							"parameter_shortname" : "mute",
 							"parameter_type" : 2,
 							"parameter_mmax" : 1.0,
@@ -545,7 +532,7 @@
 				"box" : 				{
 					"comment" : "signal output",
 					"id" : "obj-16",
-					"index" : 0,
+					"index" : 1,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
@@ -558,11 +545,11 @@
 				"box" : 				{
 					"comment" : "",
 					"id" : "obj-4",
-					"index" : 0,
+					"index" : 1,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
-					"outlettype" : [ "" ],
+					"outlettype" : [ "signal" ],
 					"patching_rect" : [ 343.0, 65.5, 25.0, 25.0 ],
 					"style" : ""
 				}
@@ -577,17 +564,17 @@
 					"numinlets" : 1,
 					"numoutlets" : 4,
 					"outlettype" : [ "", "", "", "" ],
-					"patching_rect" : [ 274.0, 829.0, 59.5, 22.0 ],
+					"patching_rect" : [ 113.0, 404.0, 59.5, 22.0 ],
 					"restore" : 					{
 						"MIDIActivityLED" : [ 0.0 ],
 						"Steps" : [ 0.0 ],
-						"live.tab" : [ 0.0 ],
+						"live.tab" : [ 3.0 ],
 						"mute" : [ 0.0 ]
 					}
 ,
 					"style" : "",
 					"text" : "autopattr",
-					"varname" : "u434000896"
+					"varname" : "u067002774"
 				}
 
 			}
@@ -653,7 +640,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 873.0, -138.0, 150.0, 4.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ -1.21934, 174.0, 247.0, 17.0 ],
+					"presentation_rect" : [ -1.21934, 174.0, 153.0, 17.0 ],
 					"proportion" : 0.39,
 					"prototypename" : "M4LBack",
 					"rounded" : 0,
@@ -672,7 +659,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ -6.552673, 29.0, 150.0, 4.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ -1.21934, 0.0, 247.0, 17.0 ],
+					"presentation_rect" : [ -1.21934, 0.0, 153.0, 17.0 ],
 					"proportion" : 0.39,
 					"prototypename" : "M4LBack",
 					"rounded" : 0,
@@ -691,7 +678,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 121.447327, 40.0, 150.0, 4.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ -1.21934, 15.666667, 247.0, 19.333334 ],
+					"presentation_rect" : [ -1.21934, 15.666667, 153.0, 19.333334 ],
 					"proportion" : 0.39,
 					"prototypename" : "M4LTopMenuBar",
 					"rounded" : 0,
@@ -710,7 +697,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ -49.0, 58.707771, 150.0, 4.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ -1.21934, 0.0, 247.0, 191.0 ],
+					"presentation_rect" : [ -1.21934, 0.0, 153.0, 191.0 ],
 					"proportion" : 0.39,
 					"prototypename" : "M4LTopMenuBar",
 					"rounded" : 0,
@@ -984,71 +971,6 @@
 
 			}
  ],
-		"parameters" : 		{
-			"obj-23" : [ "Steps", "nn", 0 ],
-			"obj-48" : [ "MIDIActivityLED", "MIDIActivityLED", 0 ],
-			"obj-18" : [ "live.tab", "live.tab", 0 ],
-			"obj-20" : [ "mute[20]", "mute", 0 ]
-		}
-,
-		"dependency_cache" : [ 			{
-				"name" : "diatonicSet.maxpat",
-				"bootpath" : "/Volumes/EXHDD/_MyMusic/MaxPatch/BEAPPatch/bp.ak.Signal2QMIDI",
-				"patcherrelativepath" : ".",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "diatonic.txt",
-				"bootpath" : "/Volumes/EXHDD/_MyMusic/MaxPatch/BEAPPatch/bp.ak.Signal2QMIDI",
-				"patcherrelativepath" : ".",
-				"type" : "TEXT",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "octatonicSet.maxpat",
-				"bootpath" : "/Volumes/EXHDD/_MyMusic/MaxPatch/BEAPPatch/bp.ak.Signal2QMIDI",
-				"patcherrelativepath" : ".",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "octatonic12.txt",
-				"bootpath" : "/Volumes/EXHDD/_MyMusic/MaxPatch/BEAPPatch/bp.ak.Signal2QMIDI",
-				"patcherrelativepath" : ".",
-				"type" : "TEXT",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "Chromatic.maxpat",
-				"bootpath" : "/Volumes/EXHDD/_MyMusic/MaxPatch/BEAPPatch/bp.ak.Signal2QMIDI",
-				"patcherrelativepath" : ".",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "chromatic.txt",
-				"bootpath" : "/Volumes/EXHDD/_MyMusic/MaxPatch/BEAPPatch/bp.ak.Signal2QMIDI",
-				"patcherrelativepath" : ".",
-				"type" : "TEXT",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "Wholetone.maxpat",
-				"bootpath" : "/Volumes/EXHDD/_MyMusic/MaxPatch/BEAPPatch/bp.ak.Signal2QMIDI",
-				"patcherrelativepath" : ".",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "wholetone.txt",
-				"bootpath" : "/Volumes/EXHDD/_MyMusic/MaxPatch/BEAPPatch/bp.ak.Signal2QMIDI",
-				"patcherrelativepath" : ".",
-				"type" : "TEXT",
-				"implicit" : 1
-			}
- ],
-		"autosave" : 0,
 		"styles" : [ 			{
 				"name" : "tap",
 				"default" : 				{
